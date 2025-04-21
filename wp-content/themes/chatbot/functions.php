@@ -10,11 +10,9 @@ function theme_enqueue_styles() {
         get_stylesheet_directory_uri() . '/style.css',
         array('parent-style')
     );
-    wp_enqueue_script('custom_javascript', get_stylesheet_directory_uri() . '/customElements.js');
+    wp_enqueue_script('custom_javascript', get_stylesheet_directory_uri() . '/customElements.js', array(), false, true);
     wp_enqueue_script('custom_module1', 'https://kunal1118.github.io/Assignment-1/index.js', array(), null, true);
-    wp_script_add_data('custom_module1', 'type', 'module'); 
     wp_enqueue_script('custom_module2', 'https://rhildred.github.io/chatter/fab.js', array(), null, true);
-    wp_script_add_data('custom_module2', 'type', 'module');
 }
 //
 // Your code goes below
