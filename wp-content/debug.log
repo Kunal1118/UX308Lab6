@@ -1,1 +1,34 @@
 [19-Apr-2025 00:06:31 UTC] PHP Warning:  Undefined array key "host" in /workspaces/UX308Lab6/.wordpress/wp-includes/pluggable.php on line 1640
+[21-Apr-2025 20:18:26 UTC] PHP Warning:  Undefined variable $parent_theme_name in /workspaces/UX308Lab6/.wordpress/wp-content/mu-plugins/one-click-child-theme/templates/create_child_form.php on line 18
+[21-Apr-2025 20:28:43 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function wp_enqueue_module() in /workspaces/UX308Lab6/.wordpress/wp-content/themes/chatbot/functions.php:14
+Stack trace:
+#0 /workspaces/UX308Lab6/.wordpress/wp-includes/class-wp-hook.php(324): theme_enqueue_styles('')
+#1 /workspaces/UX308Lab6/.wordpress/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters(NULL, Array)
+#2 /workspaces/UX308Lab6/.wordpress/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#3 /workspaces/UX308Lab6/.wordpress/wp-includes/script-loader.php(2277): do_action('wp_enqueue_scri...')
+#4 /workspaces/UX308Lab6/.wordpress/wp-includes/class-wp-hook.php(324): wp_enqueue_scripts('')
+#5 /workspaces/UX308Lab6/.wordpress/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters(NULL, Array)
+#6 /workspaces/UX308Lab6/.wordpress/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#7 /workspaces/UX308Lab6/.wordpress/wp-includes/general-template.php(3192): do_action('wp_head')
+#8 /workspaces/UX308Lab6/.wordpress/wp-includes/template-canvas.php(17): wp_head()
+#9 /workspaces/UX308Lab6/.wordpress/wp-includes/template-loader.php(106): include('/workspaces/UX3...')
+#10 /workspaces/UX308Lab6/.wordpress/wp-blog-header.php(19): require_once('/workspaces/UX3...')
+#11 /workspaces/UX308Lab6/.wordpress/index.php(17): require('/workspaces/UX3...')
+#12 {main}
+  thrown in /workspaces/UX308Lab6/.wordpress/wp-content/themes/chatbot/functions.php on line 14
+[21-Apr-2025 20:28:45 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function wp_enqueue_module() in /workspaces/UX308Lab6/.wordpress/wp-content/themes/chatbot/functions.php:14
+Stack trace:
+#0 /workspaces/UX308Lab6/.wordpress/wp-includes/class-wp-hook.php(324): theme_enqueue_styles('')
+#1 /workspaces/UX308Lab6/.wordpress/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters(NULL, Array)
+#2 /workspaces/UX308Lab6/.wordpress/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#3 /workspaces/UX308Lab6/.wordpress/wp-includes/script-loader.php(2277): do_action('wp_enqueue_scri...')
+#4 /workspaces/UX308Lab6/.wordpress/wp-includes/class-wp-hook.php(324): wp_enqueue_scripts('')
+#5 /workspaces/UX308Lab6/.wordpress/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters(NULL, Array)
+#6 /workspaces/UX308Lab6/.wordpress/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#7 /workspaces/UX308Lab6/.wordpress/wp-includes/general-template.php(3192): do_action('wp_head')
+#8 /workspaces/UX308Lab6/.wordpress/wp-includes/template-canvas.php(17): wp_head()
+#9 /workspaces/UX308Lab6/.wordpress/wp-includes/template-loader.php(106): include('/workspaces/UX3...')
+#10 /workspaces/UX308Lab6/.wordpress/wp-blog-header.php(19): require_once('/workspaces/UX3...')
+#11 /workspaces/UX308Lab6/.wordpress/index.php(17): require('/workspaces/UX3...')
+#12 {main}
+  thrown in /workspaces/UX308Lab6/.wordpress/wp-content/themes/chatbot/functions.php on line 14
