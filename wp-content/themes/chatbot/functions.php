@@ -11,7 +11,7 @@ function theme_enqueue_styles() {
         array('parent-style')
     );
     wp_enqueue_script('custom_javascript', get_stylesheet_directory_uri() . '/customElements.js');
-    wp_enqueue_module('custom_module1',"https://kunal1118.github.io/Assignment-1/");
+    wp_enqueue_module('custom_module1',"https://kunal1118.github.io/Assignment-1/index.js");
     wp_enqueue_module('custom_module2',"https://rhildred.github.io/chatter/fab.js");
 }
 //
