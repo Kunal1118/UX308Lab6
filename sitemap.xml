@@ -1,0 +1,43 @@
+<?xml?>
+<urlset>
+    <url>
+        <loc>
+            http://localhost:8000/
+        </loc>
+    </url>
+    <url>
+        <loc>
+            http://localhost:8000/sample-page/
+        </loc>
+    </url>
+    <url>
+        <loc>
+            http://localhost:8000/privacy-policy/
+        </loc>
+    </url>
+    <url>
+        <loc>
+            http://localhost:8000/products/
+        </loc>
+    </url>
+    <url>
+        <loc>
+            http://localhost:8000/products/mango-juice/
+        </loc>
+    </url>
+    <url>
+        <loc>
+            http://localhost:8000/products/apple-juice/
+        </loc>
+    </url>
+    <url>
+        <loc>
+            http://localhost:8000/products/orange-juice/
+        </loc>
+    </url>
+    <url>
+        <loc>
+            http://localhost:8000/author/lalv8900/
+        </loc>
+    </url>
+</urlset>
