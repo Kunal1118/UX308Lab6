@@ -32,11 +32,6 @@
     </url>
     <url>
         <loc>
-            http://localhost:8000/products/orange-juice/
-        </loc>
-    </url>
-    <url>
-        <loc>
             http://localhost:8000/author/lalv8900/
         </loc>
     </url>
